@@ -18,7 +18,7 @@ class ACharacter;
 class UCharacterMovementComponent;
 
 UCLASS(ClassGroup = (Movement), meta = (BlueprintSpawnableComponent))
-class THENAMED_API UClickToMoveComponent : public UActorComponent, public IMovementIntentProvider
+class THENAMEDCORE_API UClickToMoveComponent : public UActorComponent, public IMovementIntentProvider
 {
 	GENERATED_BODY()
 
