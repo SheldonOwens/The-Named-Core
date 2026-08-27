@@ -5,6 +5,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "NavigationSystem.h"
 #include "NavigationData.h"
+#include "NavigationPath.h"
 
 UClickToMoveComponent::UClickToMoveComponent()
 {
