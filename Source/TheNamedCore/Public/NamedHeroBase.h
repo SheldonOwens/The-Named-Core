@@ -23,7 +23,7 @@ enum class EMovementInputMode : uint8
 };
 
 UCLASS()
-class THENAMED_API ANamedHeroBase : public ACharacter
+class THENAMEDCORE_API ANamedHeroBase : public ACharacter
 {
 	GENERATED_BODY()
 
