@@ -1,0 +1,53 @@
+# ============================
+# The Named — UE5 .gitignore
+# ============================
+
+# Visual Studio / Rider tooling (never commit — machine-specific)
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.slnx
+*.sqlite
+*.opensdf
+*.sdf
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# UE5 generated/derived folders — always regenerated locally, never commit
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.ue5/
+
+# Platform-specific build artifacts
+*.target
+*.modules
+*.app
+
+# UE5 project settings that are machine/session-local
+ProjectSettings.json
+VSWorkspaceState.json
+
+# Editor crash/log noise
+*.log
+CrashReportClient/
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================
+# What we DO want to keep
+# ============================
+# Config/       -> tracked (project settings that matter)
+# Content/      -> tracked, but binaries go through LFS (see .gitattributes)
+# Source/       -> tracked (this is our actual code)
+# *.uproject    -> tracked
