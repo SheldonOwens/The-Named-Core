@@ -14,12 +14,12 @@
 #include "MovementIntentProvider.generated.h"
 
 UINTERFACE(BlueprintType)
-class THENAMED_API UMovementIntentProvider : public UInterface
+class THENAMEDCORE_API UMovementIntentProvider : public UInterface
 {
 	GENERATED_BODY()
 };
 
-class THENAMED_API IMovementIntentProvider
+class THENAMEDCORE_API IMovementIntentProvider
 {
 	GENERATED_BODY()
 
